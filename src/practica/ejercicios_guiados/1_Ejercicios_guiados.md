@@ -54,3 +54,20 @@ Sigue las instrucciones y recuerda gestionar los errores en el código:
 - Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
 - Utiliza un nueva nueva instancia de File apuntando a "ficheroNoExiste.txt", no crees el fichero.
 - Intenta escribir en él cualquier texto ¿Qué ocurre? El fichero se crea "sólo".
+
+# LEER Y ESCRIBIR (PrintWriter y Scanner)
+
+## Escribiendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Utiliza un nueva nueva instancia de File apuntando a "ficheroPrint.txt", no crees el fichero.
+- Utiliza la clase PrintWriter para escribir en el fichero usando tres métodos distintos: print, println y printf.
+- Imprime datos en diferentes formatos, int, double, cadenas,...
+
+## Leyendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Lee la información del fichero del punto anterior con ayuda de la clase Scanner.
+- Si en el ejercicio anterior has leído todo como cadena, asa a utilizar la lectura de ints y doubles.
