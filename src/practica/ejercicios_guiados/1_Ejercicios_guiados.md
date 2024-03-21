@@ -71,3 +71,44 @@ Sigue las instrucciones y recuerda gestionar los errores en el código:
 - Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
 - Lee la información del fichero del punto anterior con ayuda de la clase Scanner.
 - Si en el ejercicio anterior has leído todo como cadena, asa a utilizar la lectura de ints y doubles.
+
+# LEER Y ESCRIBIR (BufferedWriter y BufferedReader)
+
+## Escribiendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Utiliza un nueva nueva instancia de File apuntando a "ficheroBuffered.txt", no crees el fichero.
+- Utiliza la clase BufferedWriter para escribir en el fichero 50 líneas de texto (el texto que tu quieras) y que se 
+  indique en cada línea el número de línea.
+
+## Leyendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Lee la información del fichero del punto anterior con ayuda de la clase BufferedReader.
+
+# LEER Y ESCRIBIR (InputStream y OutputStream)
+
+## Escribiendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Utiliza un nueva nueva instancia de File apuntando a "ficheroStream.txt", no crees el fichero.
+- Utiliza la clase DataOutputStream para escribir en el fichero un número por línea, del 1 al 50.
+
+## Leyendo
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Lee la información del fichero del punto anterior con ayuda de la clase DataInputStream e imprímelo por pantalla.
+
+# LEER Y ESCRIBIR
+
+## Lee por consola y escribe en fichero
+
+Sigue las instrucciones y recuerda gestionar los errores en el código:
+- Crea un método nuevo al que vamos a llamar desde el main que haga todo lo que se indica en los siguientes pasos.
+- Crea un buffer de lectura que lea de la entrada estándar System.in
+- Todo lo que vaya leyendo de la entrada lo tiene que ir escribiendo en un fichero
+- El programa acaba cuando se escriba la palabra "fin"
