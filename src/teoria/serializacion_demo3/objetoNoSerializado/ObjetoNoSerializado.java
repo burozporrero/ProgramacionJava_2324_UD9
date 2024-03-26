@@ -1,4 +1,4 @@
-package teoria.serializacion_demo3;
+package teoria.serializacion_demo3.objetoNoSerializado;
 
 import java.io.Serial;
 import java.io.Serializable;
@@ -10,32 +10,24 @@ import java.util.Arrays;
  *  - recursos que posee el jugador
  *
  */
-public class ObjetosEnJuego implements Serializable {
+public class ObjetoNoSerializado implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 5126604979421916814L;
 
-    private String[] territorios;
-    private Recurso[] recursos;
+    private TerritorioNoSerializado[] territorios;
+    private RecursoNoSerializado[] recursos;
 
-    public ObjetosEnJuego(String[] territorios, Recurso[] recursos) {
+    public ObjetoNoSerializado(TerritorioNoSerializado[] territorios, RecursoNoSerializado[] recursos) {
         this.territorios = territorios;
         this.recursos = recursos;
     }
 
-    public String[] getTerritorios() {
-        return territorios;
-    }
-
-    public void setTerritorios(String[] territorios) {
-        this.territorios = territorios;
-    }
-
-    public Recurso[] getRecursos() {
+    public RecursoNoSerializado[] getRecursos() {
         return recursos;
     }
 
-    public void setRecursos(Recurso[] recursos) {
+    public void setRecursos(RecursoNoSerializado[] recursos) {
         this.recursos = recursos;
     }
 
@@ -53,7 +45,7 @@ public class ObjetosEnJuego implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        ObjetosEnJuego that = (ObjetosEnJuego) o;
+        ObjetoNoSerializado that = (ObjetoNoSerializado) o;
 
         // Probably incorrect - comparing Object[] arrays with Arrays.equals
         if (!Arrays.equals(territorios, that.territorios)) return false;

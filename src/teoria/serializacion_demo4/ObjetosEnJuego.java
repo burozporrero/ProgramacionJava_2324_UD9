@@ -1,4 +1,4 @@
-package teoria.serializacion_demo2;
+package teoria.serializacion_demo4;
 
 import java.io.Serial;
 import java.io.Serializable;

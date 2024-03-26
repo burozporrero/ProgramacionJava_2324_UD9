@@ -7,7 +7,7 @@ import java.io.*;
 
 public class GestionEstado {
 
-    public static final Logger LOGGER = LogManager.getRootLogger();
+    public static Logger LOGGER = LogManager.getRootLogger();
     public static void main(String[] args){
 
         String[] territorios = {"España tiene 6 provincias", "Rusia tiene 10 provincias", "Francia tiene 8 provincias"};

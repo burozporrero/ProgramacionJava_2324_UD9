@@ -1,17 +1,15 @@
-package teoria.serializacion_demo3;
+package teoria.serializacion_demo3.objetoNoSerializado;
 
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Territorio implements Serializable {
-    @Serial
-    private static final long serialVersionUID = -7995451023913394390L;
+public class TerritorioNoSerializado {
     String nombre;
     String[] provincias;
 
-    public Territorio(String nombre, String[] provincias) {
+    public TerritorioNoSerializado(String nombre, String[] provincias) {
         this.nombre = nombre;
         this.provincias = provincias;
     }
@@ -46,7 +44,7 @@ public class Territorio implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Territorio that = (Territorio) o;
+        TerritorioNoSerializado that = (TerritorioNoSerializado) o;
 
         if (!Objects.equals(nombre, that.nombre)) return false;
         // Probably incorrect - comparing Object[] arrays with Arrays.equals

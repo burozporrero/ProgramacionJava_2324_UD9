@@ -1,18 +1,16 @@
-package teoria.serializacion_demo3;
+package teoria.serializacion_demo3.objetoNoSerializado;
 
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Recurso implements Serializable {
+public class RecursoNoSerializado {
 
-    @Serial
-    private static final long serialVersionUID = -331316989964838554L;
     int id;
     String nombre;
     double cantidad;
 
-    public Recurso(int id, String nombre, double cantidad) {
+    public RecursoNoSerializado(int id, String nombre, double cantidad) {
         this.id = id;
         this.nombre = nombre;
         this.cantidad = cantidad;
@@ -57,7 +55,7 @@ public class Recurso implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Recurso recurso = (Recurso) o;
+        RecursoNoSerializado recurso = (RecursoNoSerializado) o;
 
         if (id != recurso.id) return false;
         if (Double.compare(cantidad, recurso.cantidad) != 0) return false;
