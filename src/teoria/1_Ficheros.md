@@ -130,7 +130,7 @@ Realizar la serialización y la deserialización de objetos.
 __DEMO 1__
 Vamos a guardar un objeto serializado. Imaginemos que son los territorios y recursos que tiene un jugador en cierto 
 momento.
-Estos territorios y recusos se guardan como __String__ en un objeto, que se puede serializar.
+Estos territorios y recursos se guardan como __String__ en un objeto, que se puede serializar.
 [Demo 1](serializacion/GestionEstado.java)
 
 __DEMO 2__
@@ -142,6 +142,11 @@ __DEMO 3__
 Imaginemos en el ejemplo anterior que los territorios y recursos, son otros objetos en lugar de Strings. En ese caso 
 es necesario que las subclases también sean serializables. 
 [Demo 3](serializacion_demo3/GestionEstado.java)
+
+__DEMO 4__
+Imaginemos que lo que necesitamos guardar es una lista de objetos.
+[Demo 4](serializacion_demo4/GestionEstado.java)
+
 
 ### Vulnerabilidades que puede causar la deserialización
 

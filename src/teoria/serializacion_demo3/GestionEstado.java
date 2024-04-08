@@ -17,7 +17,7 @@ public class GestionEstado {
     public static Logger LOGGER = LogManager.getRootLogger();
     public static void main(String[] args){
 
-        // TODO Creo objeto que va a fallará al deserializarse
+        // TODO Creo objeto que va a fallar al deserializarse
         System.out.println("** Objeto que fallará al deserializarse **");
         ObjetoNoSerializado checkPoint_KO = createObjetoNoSerializado();
 
